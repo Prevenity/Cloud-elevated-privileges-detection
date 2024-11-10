@@ -51,25 +51,26 @@ Step 1: importing all nodes and relationship files.
 Step 2: creation of model
 
 Step 2a: definition of first node \- GKESA  
-![][image2]
+
+![image6](https://github.com/user-attachments/assets/57e6a2c0-6984-45d5-8249-a5aa5ec554bb)
 
 Step 2b: example of defined nodes
 
-![][image3]
+![image7](https://github.com/user-attachments/assets/3fce8351-d3c6-4ee5-bfdc-932b3d5c7b76)
 
 Step 2c: defining first relation: POD \-\> Namespace
 
-![][image4]
+![image9](https://github.com/user-attachments/assets/aaeac5de-91d7-4278-8f2a-6f69536261ec)
 
 Step 2d: example of defined relations
 
-![][image5]
+<img width="495" alt="image2" src="https://github.com/user-attachments/assets/9244a449-cd11-4cc7-8e8f-b3050ca3003d">
 
 Step 3: import of data
 
-3a. example of preview mode:
+3a. view in preview mode:
 
-![][image6]
+<img width="782" alt="image5" src="https://github.com/user-attachments/assets/7dd91913-ac6c-4b1a-9b12-ec137b34f47f">
 
 Case 2: (GCP) Service Account Impersonation
 
@@ -91,9 +92,14 @@ GCP scripts:
 * gcp\_parser.sh \- main script  
 * temp\_file\_with\_default\_roles\_containing\_high\_priveleges.txt \- list of default roles with permissions from permissions\_list.txt.
 
-![][image7]
+Step 1: Creation of nodes
 
-![][image8]
+![image1](https://github.com/user-attachments/assets/87369392-7417-446a-9fed-ec207fbdfd18)
+
+Step 2: Creation of simple relation
+
+![image4](https://github.com/user-attachments/assets/c0e51418-98bb-4b07-81e0-e7f2f81c97bd)
+
 
 Case 3: (Azure) Admin access
 
@@ -136,3 +142,8 @@ In example below the following scripts where used:
   * concatGRMEM.py  
   * concatSP.py  
   * concatUser.py
+
+Azure relations in Neo4j:
+ 
+<img width="460" alt="image8" src="https://github.com/user-attachments/assets/7e36f69a-28fd-4cda-8730-8a2bd1e7cbad">
+
