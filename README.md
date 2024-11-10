@@ -3,7 +3,8 @@ Cloud Elevated Privileges Detection
 A collection of scripts designed to identify accounts (user/group/service) with elevated privileges in Azure and Google Cloud Platform (GCP). These scripts also provide a visualization of the relationships between accounts and cloud resources, offering insights into privilege assignments and access structures.
 Example of visulization in neo4j is presented below:
 
-![image](https://github.com/user-attachments/assets/eb55f53f-c19e-4e6d-8463-c56d7e1f3cb4)
+![image](https://github.com/user-attachments/assets/7cf1a771-30fc-477c-95fc-ef6d4ea441fb)
+
 
 Description of cases
 
