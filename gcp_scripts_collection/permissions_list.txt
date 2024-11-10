@@ -1,0 +1,8 @@
+iam.serviceAccounts.signJwt
+iam.serviceAccounts.getAccessToken
+iam.serviceAccounts.implicitDelegation
+iam.serviceAccounts.signBlob
+iam.serviceAccounts.getOpenIdToken
+iam.serviceAccounts.actAs
+deploymentmanager.deployments.create
+cloudbuild.builds.create    
