@@ -2,6 +2,8 @@ Cloud Elevated Privileges Detection
 
 A collection of scripts designed to identify accounts (user/group/service) with elevated privileges in Azure and Google Cloud Platform (GCP). These scripts also provide a visualization of the relationships between accounts and cloud resources, offering insights into privilege assignments and access structures.
 
+![image](https://github.com/user-attachments/assets/eb55f53f-c19e-4e6d-8463-c56d7e1f3cb4)
+
 Description of cases
 
 Case 1: (GCP) Impersonation of Kubernetes Service accounts (KSA) and Google Kubernetes Engine Service Accounts (GKESA)
@@ -106,41 +108,41 @@ Identifying all users, groups, and service accounts with elevated privileges in 
 
 Azure scripts:
 
-* Azure SDK commands (AzureAD)  
-  * 01\_EnumUsersRolesPermissions-AzureAD\_v1.ps1  
-  * 01\_EnumUsersRolesScopes-AzureAD.ps1  
-  * 02\_EnumServicePrincipalsRolesPermissions-AzureAD\_v1.ps1  
-  * 03\_EnumServicePrincipals-AzureAD\_v2.ps1  
-  * 04\_EnumGroupsMembers-AzureAD.ps1  
-  * 04\_EnumRolesInGroups-AzureAD.ps1  
-  * 05\_EnumUsersADroles-AzureAD\_v2.ps1  
-  * 06\_HighPermissionsUsers-AzureAD.ps1  
-* Microsoft Graph commands (MG)  
-* 07\_Search\_all\_high\_priv\_permissions-MG.ps1  
-* 07\_Search\_all\_high\_priv\_permissions-MG\_v2.ps1  
-* 08\_EnumAllAppsConsents-MG.ps1  
-* 08\_EnumAllPrincipalsConsents-MG.ps1  
-* 08\_EnumAllUsersConsents-MG.ps1
+- Azure SDK commands (AzureAD)  
+  - 01\_EnumUsersRolesPermissions-AzureAD\_v1.ps1  
+  - 01\_EnumUsersRolesScopes-AzureAD.ps1  
+  - 02\_EnumServicePrincipalsRolesPermissions-AzureAD\_v1.ps1  
+  - 03\_EnumServicePrincipals-AzureAD\_v2.ps1  
+  - 04\_EnumGroupsMembers-AzureAD.ps1  
+  - 04\_EnumRolesInGroups-AzureAD.ps1  
+  - 05\_EnumUsersADroles-AzureAD\_v2.ps1  
+  - 06\_HighPermissionsUsers-AzureAD.ps1  
+- Microsoft Graph commands (MG)  
+ - 07\_Search\_all\_high\_priv\_permissions-MG.ps1  
+ - 07\_Search\_all\_high\_priv\_permissions-MG\_v2.ps1  
+ - 08\_EnumAllAppsConsents-MG.ps1  
+ - 08\_EnumAllPrincipalsConsents-MG.ps1  
+ - 08\_EnumAllUsersConsents-MG.ps1
 
-* Roles.txt \- list of roles with high privileges
+- Roles.txt \- list of roles with high privileges
 
 In example below the following scripts where used:
 
-* 03\_EnumServicePrincipals-AzureAD\_v2.ps1 \- script for identifying Service Principals and roles  
-* 04\_EnumRolesInGroups-AzureAD.ps1 \- enumeration of roles for AD groups  
-* 04\_EnumGroupsMembers-AzureAD.ps1 \- enumerate all members of AD groups  
-* 01\_EnumUsersRolesPermissions-AzureAD\_v1.ps1 \- script for identifying Users and roles
+- 03\_EnumServicePrincipals-AzureAD\_v2.ps1 \- script for identifying Service Principals and roles  
+- 04\_EnumRolesInGroups-AzureAD.ps1 \- enumeration of roles for AD groups  
+- 04\_EnumGroupsMembers-AzureAD.ps1 \- enumerate all members of AD groups  
+- 01\_EnumUsersRolesPermissions-AzureAD\_v1.ps1 \- script for identifying Users and roles
 
-* Parsers:  
-  * Azure\_case\_parser.sh \- main script  
-  * GroupMembers\_csv\_parser.py  
-  * GroupRolesPermissions\_csv\_parser.py  
-  * ServicePrincipal\_Permissions\_csv\_parser.py  
-  * UserRolesPermissions\_csv\_parser.py  
-  * concatGR.py  
-  * concatGRMEM.py  
-  * concatSP.py  
-  * concatUser.py
+Parsers:  
+ - Azure\_case\_parser.sh \- main script
+ - GroupMembers\_csv\_parser.py  
+ - GroupRolesPermissions\_csv\_parser.py  
+ - ServicePrincipal\_Permissions\_csv\_parser.py  
+ - UserRolesPermissions\_csv\_parser.py  
+ - concatGR.py  
+ - concatGRMEM.py  
+ - concatSP.py  
+ - concatUser.py
 
 Azure relations in Neo4j:
  
