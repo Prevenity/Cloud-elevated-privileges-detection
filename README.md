@@ -44,7 +44,8 @@ List of csv files to import:
 
 Step 1: importing all nodes and relationship files.
 
-![][image1]  
+<img width="359" alt="image3" src="https://github.com/user-attachments/assets/b1d3a0ad-a06c-4eff-b08e-535b39cd0b6a">
+
 Step 2: creation of model
 
 Step 2a: definition of first node \- GKESA  
