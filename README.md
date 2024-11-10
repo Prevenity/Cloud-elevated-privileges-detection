@@ -100,7 +100,6 @@ Step 2: Creation of simple relation
 
 ![image4](https://github.com/user-attachments/assets/c0e51418-98bb-4b07-81e0-e7f2f81c97bd)
 
-
 Case 3: (Azure) Admin access
 
 Identifying all users, groups, and service accounts with elevated privileges in Azure. Mapping and analyzing relationships associated with administrative roles to uncover connections between users, groups, service accounts, and Azure resources, providing a detailed view of privilege distribution and access control.
